@@ -204,6 +204,11 @@ html::-webkit-scrollbar-thumb {
     color: #fff;
 }
 
+.btn:disabled {
+    cursor: not-allowed;
+    background: #555b69;
+  }
+
 .about .row .image {
     display: flex;
     justify-content: center;
