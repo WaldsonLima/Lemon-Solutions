@@ -169,10 +169,17 @@ html::-webkit-scrollbar-thumb {
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
     padding: 2.5rem;
+    user-select: none;
 }
 
 .services .box-container .box img {
     height: 20rem;
+}
+
+.services .box-container .box img:hover {
+    height: 20rem;
+    /* transform: scale(105%) rotate(25deg); */
+    -webkit-transform : rotate(5deg) scale(105%);
 }
 
 .services .box-container .box h3 {
@@ -263,6 +270,7 @@ html::-webkit-scrollbar-thumb {
     box-shadow: var(--box-shadow);
     padding: 2rem;
     text-align: center;
+    position: relative;
 }
 
 .contact .row form h3 {
@@ -314,6 +322,35 @@ html::-webkit-scrollbar-thumb {
     text-align: center;
     font-size: 2rem;
     color: var(--black);
+}
+
+.footer-aviso-box {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-aviso {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+
+.emoji-box{
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: .4s all;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.emoji-box:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
 }
 
 
@@ -381,6 +418,10 @@ html::-webkit-scrollbar-thumb {
         gap: 1.5rem;
         width: 90%;
         margin: 0 auto;
+    }
+
+    .emoji-box{
+        display: none;
     }
 }
 
