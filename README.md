@@ -1,4 +1,4 @@
 # Lemon-Solutions
 
-Empresa de soluções tecnológicas criada por Waldson Lima e Dellano Brandão em 15/08/2023.
-Atualizações em breve.
+Este é um projeto de portfólio criado em 15/08/2023.
+Todas as informações dele são fictícias.
